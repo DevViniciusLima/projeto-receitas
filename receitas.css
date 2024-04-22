@@ -1,0 +1,82 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.menu div {
+    background-color: #e0e0e0;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+div.card {
+    width: 403px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    margin-left: -0px;
+
+    transition: all 0.3s ease-out;
+    margin-top: 30px;
+
+
+}
+
+div.card-body {
+    height: auto;
+}
+
+ol.card-text {
+    height: auto;
+    font-size: 16px;
+}
+
+.card h5 {
+    text-align: center;
+}
+
+img.card-img-top {
+
+    width: 220px;
+    height: 220px;
+
+}
+
+h5 {
+    text-shadow: 1px 1px 2px #7aa1e9;
+}
+
+.menu ul,
+ol li {
+    flex-direction: column;
+    list-style: circle;
+    gap: 8px;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+hr {
+    border: solid;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+
+
+.altura {
+    height: 5vh;
+}
+
+.altura h3 {
+    font-size: 16px;
+    padding: 12px;
+}
